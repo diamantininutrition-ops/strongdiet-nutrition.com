@@ -3,6 +3,17 @@ import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 
 export const Route = createFileRoute("/confidentialite")({
+  head: () => ({
+    meta: [
+      { title: "Politique de confidentialité | STRONGDIET" },
+      {
+        name: "description",
+        content:
+          "Comment STRONGDIET collecte, utilise et protège vos données personnelles transmises via les formulaires du site.",
+      },
+    ],
+    links: [{ rel: "canonical", href: "https://www.strongdiet-nutrition.com/confidentialite" }],
+  }),
   component: PrivacyPage,
 });
 

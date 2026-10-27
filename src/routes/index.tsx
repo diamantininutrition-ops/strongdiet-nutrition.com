@@ -24,6 +24,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: title },
       { property: "og:description", content: description },
     ],
+    links: [{ rel: "canonical", href: "https://www.strongdiet-nutrition.com/" }],
   }),
   component: Home,
 });
