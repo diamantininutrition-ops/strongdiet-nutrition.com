@@ -35,8 +35,8 @@ function PrivacyPage() {
           <p>
             Tu peux demander l’accès, la rectification ou la suppression de tes
             données en écrivant à{" "}
-            <a className="text-forest underline underline-offset-4" href="mailto:contact@strongdiet.fr">
-              contact@strongdiet.fr
+            <a className="text-forest underline underline-offset-4" href="mailto:diamantini.nutrition@gmail.com">
+              diamantini.nutrition@gmail.com
             </a>
             .
           </p>
