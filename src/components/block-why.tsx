@@ -40,7 +40,7 @@ export function BlockWhy() {
         </div>
         <img
           src="/athlete.jpg"
-          alt=""
+          alt="Athlète se préparant à un entraînement de musculation avec un kettlebell, accompagnement en nutrition du sport STRONGDIET"
           className="h-52 w-full object-cover object-bottom lg:h-full lg:min-h-96 lg:w-full lg:object-center"
         />
       </div>

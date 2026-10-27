@@ -11,7 +11,7 @@ export function BlockBio() {
         <div className="mx-auto mb-8 h-px w-12 bg-gold lg:mb-12" aria-hidden="true" />
         <img
           src="/logo.png"
-          alt="Strong Diet"
+          alt="Logo STRONGDIET, nutrition du sport"
           className="mx-auto mb-8 h-28 w-auto sm:h-36 lg:mb-14 lg:h-48"
         />
         <h2 className="-mx-1 text-center font-display text-xl font-semibold leading-snug tracking-display sm:mx-0 sm:text-pair lg:text-[3.35rem]">
