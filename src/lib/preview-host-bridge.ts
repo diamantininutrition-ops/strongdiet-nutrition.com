@@ -114,14 +114,21 @@ export function installPreviewHostBridge(
     window.parent.postMessage(message, parentOrigin);
   };
 
+  let lastReported = "";
   const reportLocation = () => {
+    const path = window.location.pathname || "/";
+    const search = window.location.search;
+    const hash = window.location.hash;
+    const key = `${path}${search}${hash}`;
+    if (key === lastReported) return;
+    lastReported = key;
     post({
       channel: PREVIEW_BRIDGE_CHANNEL,
       version: PREVIEW_BRIDGE_VERSION,
       type: "location",
-      path: window.location.pathname || "/",
-      search: window.location.search,
-      hash: window.location.hash,
+      path,
+      search,
+      hash,
     });
   };
 
@@ -211,24 +218,37 @@ export function installPreviewHostBridge(
   };
 
   // Patch history so in-app SPA navigations sync the host address bar.
+  let historyDepth = 0;
   window.history.pushState = (data, unused, url) => {
-    const next =
-      data && typeof data === "object"
-        ? { ...data, [ROOT_STATE_KEY]: false }
-        : data;
-    originalPushState(next, unused, url);
-    reportLocation();
+    if (historyDepth > 0) return;
+    historyDepth += 1;
+    try {
+      const next =
+        data && typeof data === "object"
+          ? { ...data, [ROOT_STATE_KEY]: false }
+          : data;
+      originalPushState(next, unused, url);
+      reportLocation();
+    } finally {
+      historyDepth -= 1;
+    }
   };
   window.history.replaceState = (data, unused, url) => {
-    const next =
-      isAtHistoryRoot()
-        ? {
-            ...(data && typeof data === "object" ? data : {}),
-            [ROOT_STATE_KEY]: true,
-          }
-        : data;
-    originalReplaceState(next, unused, url);
-    reportLocation();
+    if (historyDepth > 0) return;
+    historyDepth += 1;
+    try {
+      const next =
+        isAtHistoryRoot()
+          ? {
+              ...(data && typeof data === "object" ? data : {}),
+              [ROOT_STATE_KEY]: true,
+            }
+          : data;
+      originalReplaceState(next, unused, url);
+      reportLocation();
+    } finally {
+      historyDepth -= 1;
+    }
   };
 
   window.addEventListener("message", onMessage);

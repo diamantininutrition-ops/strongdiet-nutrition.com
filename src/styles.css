@@ -51,7 +51,8 @@
     -moz-osx-font-smoothing: grayscale;
     background: var(--color-ink);
     color: var(--color-fg);
-    scroll-behavior: smooth;
+    overflow-anchor: none;
+    overscroll-behavior: none;
   }
 
   body {
