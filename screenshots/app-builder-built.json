@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Strong Diet — Nutrition du sport",
+      "hasCanvas": false,
+      "bodyTextLen": 409,
+      "bodyTextHash": "4612ed492295f01447a3223960ff85282030253f4aab7c49f0e929a8bfe7d52e",
+      "bodyTextPrefix": "Strong Diet Rendez-vous Nutrition du sport Construis ta stratégi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Strong Diet — Nutrition du sport",
+      "hasCanvas": false,
+      "bodyTextLen": 409,
+      "bodyTextHash": "4612ed492295f01447a3223960ff85282030253f4aab7c49f0e929a8bfe7d52e",
+      "bodyTextPrefix": "Strong Diet Rendez-vous Nutrition du sport Construis ta stratégi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

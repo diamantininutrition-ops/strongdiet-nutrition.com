@@ -1,0 +1,375 @@
+STRONG DIET — TEXTES ET BALISES
+
+Relevé du texte publié, dans l’ordre de la page.
+La balise indiquée est celle réellement utilisée dans le code.
+Les titres qui s’affichent en grand ne sont pas toujours des balises de titre (h1, h2, h3).
+
+
+EN-TÊTE DE LA PAGE (SEO, invisible à l’écran)
+
+[title]
+Strong Diet — Nutrition du sport
+
+[meta description]
+Une approche nutritionnelle conçue pour la haute performance, auprès de combattants professionnels, d’athlètes olympiques et de sportifs de haut niveau.
+
+
+EN-TÊTE VISIBLE
+
+[a]
+Strong Diet
+
+[a]
+Rendez-vous
+
+
+BLOC 1 — ACCROCHE
+
+[h1]
+Nutrition du sport
+Note : seul titre h1 de la page d’accueil.
+
+[p]
+Construis ta stratégie.
+Atteins tes objectifs.
+Note : deux lignes dans un seul paragraphe. « Construis ta stratégie. » est en doré.
+
+[p]
+Une approche nutritionnelle conçue pour la haute performance et utilisée auprès de combattants professionnels, d’athlètes olympiques et de sportifs de haut niveau. Pensée pour mieux performer, récupérer plus vite et obtenir des résultats à la hauteur de l’engagement.
+
+[a]
+Commencer ma préparation nutritionnelle
+Note : lien interne vers « Commençons ta stratégie nutritionnelle ! ».
+
+[img alt]
+Valentin Diamantini, nutritionniste du sport
+
+
+BLOC 2 — PREUVES ET PRÉSENTATION
+
+[p]
+Nutrition du sportif
+
+[p]
+Combat, endurance et sports de force
+
+[p]
++ de 500
+
+[p]
+Sportifs accompagnés
+
+[p]
+8 ans
+
+[p]
+D’expérience
+
+[p]
+Athlètes professionnels
+
+[p]
+Olympiques et de haut niveau
+
+[p]
+Je suis Valentin Diamantini, diététicien-nutritionniste du sport.
+
+[p]
+Depuis plusieurs années, j’accompagne des sportifs amateurs, compétiteurs et athlètes de haut niveau dans leur préparation nutritionnelle.
+
+[p]
+J’ai accompagné plusieurs centaines de sportifs, dont des athlètes olympiques et professionnels, et travaille avec des structures de haut niveau comme le CREPS, l’INSEP et des pôles France en boxe, tir à l’arc et judo. Ces années de terrain ont forgé une expertise technique et scientifique de la nutrition sportive, fondée sur l’analyse, la précision et l’individualisation des stratégies de performance.
+
+[p]
+Mon objectif : mettre la rigueur, la précision et les exigences du haut niveau au service de chaque sportif déterminé à progresser.
+
+
+BLOC 3 — THÉMATIQUES ET ENTRÉE
+
+[p]
+GESTION DU POIDS
+
+[p]
+COMPÉTITION
+
+[p]
+RÉCUPÉRATION
+
+[p]
+COMPLÉMENTS ALIMENTAIRES
+
+[p]
+OPTIMISATION DES PERFORMANCES
+
+[h2]
+COMMENCER MON ACCOMPAGNEMENT
+
+[p]
+Analyse individualisée - Stratégie sur mesure - Suivi réactif
+Note : italique.
+
+
+BLOC 4 — BIOSTRATÉGIE
+
+[img alt]
+Strong Diet
+
+[h2]
+Optimise tes performances au plus haut niveau avec la biostratégie fonctionnelle.
+Note : une seule phrase, affichée sur deux lignes. « biostratégie fonctionnelle » est en vert #6f9e3a. « Optimise tes performances » est en doré.
+
+[p]
+La biostratégie fonctionnelle analyse le fonctionnement de ton corps pour construire la stratégie nutritionnelle la plus adaptée à ton profil. Issue d’un système utilisé auprès d’athlètes d’élite, elle transpose dans ton accompagnement le degré de précision et d’ajustement exigé par le sport de haut niveau. Contrairement aux méthodes figées, elle évolue selon tes spécificités métaboliques, tes besoins nutritionnels et tes échéances sportives.
+Note : en gras : « construire la stratégie nutritionnelle la plus adaptée à ton profil », « système utilisé auprès d’athlètes d’élite », « accompagnement ».
+
+
+BLOC 5 — POURQUOI
+
+[h2]
+Pourquoi les meilleurs construisent-ils leur propre stratégie ?
+Note : en gras : « les meilleurs », « leur propre stratégie ». « stratégie » est en vert #6f9e3a.
+
+[p]
+Au départ, beaucoup de méthodes semblent fonctionner uniquement parce que le corps compense les limites : cet équilibre ne dure pas. Puis, insidieusement, les résultats ne suivent plus : les performances stagnent, la récupération se dégrade et ton poids devient plus difficile à maîtriser. La plupart des méthodes restent basées sur des protocoles génériques, peu adaptés aux exigences réelles de la performance.
+Pour continuer à progresser, la nutrition doit se construire autrement.
+Note : en gras : « cet équilibre ». En rouge cendre : « ne dure pas ».
+
+[p]
+C’est ici que la stratégie prend tout son sens.
+Note : visuellement un titre, mais la balise est un paragraphe. « stratégie » est en vert #6f9e3a.
+
+[p]
+La biostratégie fonctionnelle est un avantage stratégique.
+Note : « avantage stratégique » est en doré.
+
+[p]
+Au plus haut niveau, les athlètes adaptent leurs apports avec précision.
+
+[p]
+Ils adaptent leur hydratation, leur nutrition et leurs protocoles selon les charges d’entraînement, leur récupération et leurs échéances. Chaque décision s’appuie sur les réponses de l’organisme et les résultats observés pour déterminer ce qui doit être conservé, affiné ou corrigé. Lorsque chaque détail compte, la différence ne se joue plus sur la discipline, elle se joue sur la précision stratégique de la méthode.
+Note : en gras : « Chaque décision s’appuie sur les réponses de l’organisme et les résultats observés », « précision stratégique de la méthode ».
+
+[p]
+Ce sont les petits détails qui font les grands résultats.
+Note : en gras : « les petits détails », « les grands résultats ». « grands résultats » est en vert #6f9e3a.
+
+[img alt]
+(vide)
+Note : photo de l’athlète, l’attribut alt est vide.
+
+
+BLOC 6 — ACCOMPAGNEMENT
+
+[h3]
+Les 3 piliers de la biostratégie fonctionnelle
+Note : « 3 piliers » est en doré. « biostratégie fonctionnelle » est en vert #6f9e3a. Pas de h2 dans ce bloc.
+
+[p]
+Comment se passe ton accompagnement en nutrition du sport ?
+Note : visuellement un titre, balise paragraphe. En gras : « accompagnement en nutrition du sport ».
+
+[p]
+1
+
+[p]
+ANALYSE
+
+[p]
+Ta préparation nutritionnelle commence par une analyse précise de ton fonctionnement.
+
+[p]
+On analyse ta disponibilité énergétique, ta capacité de récupération, ta réponse aux charges d’entraînement et la manière dont ton organisme s’adapte aux différentes intensités. L’évaluation de ces paramètres s’appuie sur l’observation croisée de tes données d’entraînement, de tes marqueurs de récupération et de l’évolution de tes performances dans le temps.
+
+[p]
+Cette lecture précise permet d’identifier ce qui soutient réellement ta performance et ce qui la limite, à partir de données concrètes et mesurables.
+Note : tout le paragraphe est en gras. En vert #6f9e3a : « d’identifier ce qui soutient réellement ta performance ». En rouge cendre : « ce qui la limite ».
+
+[p]
+Tu obtiens ainsi une base solide qui te permettra de construire et affiner ta propre stratégie nutritionnelle.
+
+[p]
+2
+
+[p]
+ADAPTATION
+
+[p]
+Un accompagnement stratégique en nutrition du sport.
+
+[p]
+Ta préparation nutritionnelle s’organise autour de plusieurs consultations, de supports spécifiques et d’un suivi continu et réactif.
+Note : en vert #6f9e3a : « préparation nutritionnelle ». En doré : « consultations », « supports spécifiques », « suivi continu et réactif ».
+
+[p]
+Chaque étape est revue à partir de tes objectifs, de tes retours, de l’évolution de tes entraînements et de tes échéances sportives, en y intégrant tes contraintes réelles. Ces éléments deviennent des données de pilotage qui permettent d’ajuster avec précision ta propre stratégie en adaptant tes apports nutritionnels, l’organisation de tes repas et les protocoles de nutrition mis en place.
+Note : en gras : « intégrant tes contraintes réelles », « d’ajuster avec précision ta propre stratégie ».
+
+[p]
+Un accompagnement au plus proche de ta pratique pour une optimisation précise de tes performances.
+Note : en vert #6f9e3a : « au plus proche de ta pratique ».
+
+[p]
+3
+
+[p]
+PERFORMANCE
+
+[p]
+Tu obtiens une stratégie nutritionnelle construite pour performer.
+Note : en vert #6f9e3a : « stratégie nutritionnelle ». En doré : « pour performer. »
+
+[li]
+Une nutrition qui s’adapte et qui est anticipée
+
+[li]
+Une nutrition alignée sur les exigences de ta discipline
+
+[li]
+Une couverture complète de ta préparation sportive
+
+[li]
+Une compréhension fine de ton fonctionnement
+
+[li]
+Des performances sécurisées pour durer
+
+
+BLOC 7 — OFFRES
+
+[h2]
+Commençons ta stratégie nutritionnelle !
+
+[p]
+Consultations individuelles et préparation nutritionnelle intégrée
+Note : italique.
+
+[p]
+Tu stagnes malgré tes efforts ? Tu veux améliorer tes performances et tu en as assez des conseils contradictoires qui ralentissent ta progression ?
+Note : en gras : « Tu stagnes », « Tu veux améliorer tes performances », « tu en as assez des conseils contradictoires ».
+
+[p]
+Débute dès maintenant ta préparation nutritionnelle adaptée à tes besoins, à ton fonctionnement et aux exigences de ta discipline, pour performer et atteindre tes objectifs.
+Note : en gras : « Débute dès maintenant ta préparation nutritionnelle ». « préparation nutritionnelle » est en vert #6f9e3a.
+
+[p]
+Deux façons de commencer.
+Note : en gras : « Deux façons ».
+
+[p]
+Suivi personnalisé
+
+[h3]
+Consultation individuelle
+
+[p]
+Une stratégie adaptée. Un suivi à ton rythme.
+Note : italique.
+
+[p]
+Un suivi de plusieurs consultations d’une heure pour travailler précisément sur un besoin : performance, énergie, récupération, digestion, gestion du poids ou problématique spécifique à ta discipline.
+
+[p]
+Pendant la consultation :
+
+[li]
+Analyse de ton profil sportif et de tes objectifs
+
+[li]
+Conseils nutritionnels individualisés
+
+[li]
+Ajustements adaptés à ta pratique sportive
+
+[li]
+Documents et protocoles spécifiques selon tes besoins
+
+[p]
+On programme le suivi après consultation, à ton rythme, selon tes objectifs.
+
+[p]
+1 heure — 79 €
+
+[a]
+Réserver ma consultation
+Note : lien Doctolib, nouvel onglet.
+
+[p]
+Offre signature
+
+[h3]
+Préparation Nutritionnelle A2P
+Note : « A2P » est en doré.
+
+[p]
+La préparation en nutrition du sport pour une optimisation durable.
+Note : italique.
+
+[p]
+Ce programme est conçu pour atteindre tes objectifs et va plus loin : il construit une préparation nutritionnelle intégrale, où toute ta nutrition est pensée et planifiée, phase après phase, de l’entraînement jusqu’à l’échéance.
+
+[p]
+L’accompagnement a une fin, mais tu repars avec plus : un programme nutritionnel sur mesure, des stratégies et des protocoles personnalisés, construits et éprouvés tout au long de ta préparation.
+
+[p]
+Pendant ta préparation nutritionnelle :
+
+[li]
+Diagnostic complet de ton projet sportif
+
+[li]
+Planification précise de toute ta préparation
+
+[li]
+Suivi renforcé, continu entre les rendez-vous
+
+[li]
+Élaboration de stratégies et protocoles nutritionnels
+
+[p]
+Une nutrition optimisée, des stratégies et protocoles acquis à vie.
+
+[p]
+Sur devis : À partir de 307 €
+
+[a]
+Commencer ma préparation
+Note : lien vers la page Contact.
+
+
+PIED DE PAGE
+
+[p]
+Strong Diet
+
+[a]
+Prendre rendez-vous
+Note : lien Doctolib.
+
+
+PAGE CONTACT
+
+[p]
+Contact
+
+[h1]
+Parlons de votre saison.
+Note : vouvoiement, alors que le reste du site est en tutoiement.
+
+[p]
+Un échange, sans formulaire interminable. Dites qui vous êtes et ce que vous visez.
+
+[label]
+Nom
+
+[label]
+Email
+
+[label]
+Message
+
+[button]
+Envoyer
+
+[p]
+Votre messagerie s’ouvre. Si rien ne se passe, écrivez à contact@strongdiet.fr.
+Note : message affiché après envoi.

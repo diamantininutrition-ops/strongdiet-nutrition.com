@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0a0a0a;
+  --color-panel: #121212;
+  --color-paper: #f5f5f7;
+  --color-snow: #ffffff;
+  --color-fg: #f5f5f7;
+  --color-ink-fg: #1d1d1f;
+  --color-muted: #86868b;
+  --color-gold: #c9a227;
+  --color-mustard: #e8bc2f;
+  --color-forest: #006b3f;
+  --color-forest-hover: #085c38;
+  --color-lime: #9dcc4a;
+  --color-field: #6f9e3a;
+  --color-cendre: #7f2f2f;
+  --color-ivory: #f4ecd9;
+  --color-hairline: rgb(245 245 247 / 0.14);
+  --color-hairline-dark: rgb(29 29 31 / 0.12);
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter Tight", "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --text-hero: clamp(2.15rem, 7.2vw, 3.5rem);
+  --text-banner: clamp(0.85rem, 3vw, 2.05rem);
+  --text-lede: clamp(0.9rem, 2.2vw, 1.53rem);
+  --text-section: clamp(1.7rem, 4.4vw, 3rem);
+  --text-pair: clamp(1.05rem, 4.8vw, 2.85rem);
+  --text-line: clamp(0.72rem, 2.6vw, 2.15rem);
+  --text-sense: clamp(1.15rem, 3.2vw, 2.35rem);
+
+  --tracking-display: -0.035em;
+  --tracking-wide: 0.28em;
+  --tracking-label: 0.16em;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 9999px;
+  --radius-sheet: 2.75rem;
+  --radius-bubble: 1.5rem;
+  --radius-panel: 1.9rem;
+
+  --aspect-portrait: 3 / 4;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--color-ink);
+    color: var(--color-fg);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background: var(--color-ink);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
