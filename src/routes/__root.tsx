@@ -12,8 +12,28 @@ export const Route = createRootRoute({
       { title: site.title },
       { name: "description", content: site.description },
       { name: "theme-color", content: "#0A0A0A" },
+      { property: "og:title", content: "Nutrition du sport | STRONGDIET" },
+      { name: "twitter:title", content: "Nutrition du sport | STRONGDIET" },
+      {
+        property: "og:description",
+        content:
+          "La nutrition du sportif pensée pour le haut niveau. Analyse, individualisation et accompagnement. Valentin DIAMANTINI, Nutritionniste du sport.",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "La nutrition du sportif pensée pour le haut niveau. Analyse, individualisation et accompagnement. Valentin DIAMANTINI, Nutritionniste du sport.",
+      },
+      { property: "og:url", content: "https://www.strongdiet-nutrition.com/" },
+      { property: "og:type", content: "website" },
+      { property: "og:locale", content: "fr_FR" },
+      { property: "og:site_name", content: "STRONGDIET" },
+      { property: "og:image", content: "https://www.strongdiet-nutrition.com/og.jpg" },
+      { name: "twitter:image", content: "https://www.strongdiet-nutrition.com/og.jpg" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
+      { rel: "canonical", href: "https://www.strongdiet-nutrition.com/" },
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
       { rel: "stylesheet", href: appCss },
       { rel: "manifest", href: "/__grok/manifest.webmanifest" },
