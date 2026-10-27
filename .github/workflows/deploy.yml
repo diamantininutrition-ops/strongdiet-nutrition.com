@@ -34,6 +34,8 @@ jobs:
 
       - name: Build
         run: npx vite build
+        env:
+          VITE_PUBLIC_HOSTNAME: www.strongdiet-nutrition.com
 
       - name: SPA fallback
         run: cp .vercel/output/static/index.html .vercel/output/static/404.html
