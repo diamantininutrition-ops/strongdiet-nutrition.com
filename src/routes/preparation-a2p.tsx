@@ -11,7 +11,7 @@ export const Route = createFileRoute("/preparation-a2p")({
           "Un plan nutritionnel sur mesure pour performer : analyse, objectifs, compétition et récupération. Préparation A2P par Valentin DIAMANTINI, nutritionniste du sport à Metz.",
       },
     ],
-    links: [{ rel: "canonical", href: "https://www.strongdiet-nutrition.com/preparation-a2p" }],
+    links: [{ rel: "canonical", href: "https://www.strongdiet-nutrition.com/preparation-a2p/" }],
   }),
   component: PreparationPage,
 });

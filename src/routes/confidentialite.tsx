@@ -12,7 +12,7 @@ export const Route = createFileRoute("/confidentialite")({
           "Comment STRONGDIET collecte, utilise et protège vos données personnelles transmises via les formulaires du site.",
       },
     ],
-    links: [{ rel: "canonical", href: "https://www.strongdiet-nutrition.com/confidentialite" }],
+    links: [{ rel: "canonical", href: "https://www.strongdiet-nutrition.com/confidentialite/" }],
   }),
   component: PrivacyPage,
 });

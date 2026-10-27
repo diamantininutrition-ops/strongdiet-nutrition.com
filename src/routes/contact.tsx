@@ -17,7 +17,7 @@ export const Route = createFileRoute("/contact")({
           "Parlons de votre saison. Contactez Valentin DIAMANTINI, nutritionniste du sport à Metz, pour un accompagnement nutritionnel des sportifs et athlètes de haut niveau.",
       },
     ],
-    links: [{ rel: "canonical", href: "https://www.strongdiet-nutrition.com/contact" }],
+    links: [{ rel: "canonical", href: "https://www.strongdiet-nutrition.com/contact/" }],
   }),
   component: ContactPage,
 });
