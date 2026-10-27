@@ -1,12 +1,50 @@
 import { i as __toESM } from "../_runtime.mjs";
-import { b as require_jsx_runtime, z as require_react } from "../_libs/@tanstack/react-router+[...].mjs";
-import { i as cn, n as SiteFooter, r as SiteHeader, t as Button } from "./site-header-k6nM7eQE.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/contact-DaMh0ttz.js
+import { J as require_react, S as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
+import { t as cva } from "../_libs/class-variance-authority+clsx.mjs";
+import { n as SiteHeader, r as cn, t as SiteFooter } from "./site-header-CALwFXGp.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/contact-DL5woFF-.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
+var buttonVariants = cva("inline-flex items-center justify-center gap-2 font-medium tracking-tight disabled:opacity-50 disabled:pointer-events-none focus-visible:outline-2 focus-visible:outline-offset-2", {
+	variants: {
+		variant: {
+			forest: "bg-forest text-fg hover:bg-forest-hover focus-visible:outline-gold",
+			gold: "bg-gold text-ink hover:opacity-90 focus-visible:outline-gold",
+			outline: "border border-hairline bg-transparent text-fg hover:bg-fg/5 focus-visible:outline-fg",
+			ghost: "text-fg hover:opacity-70 focus-visible:outline-fg",
+			ink: "bg-ink text-fg hover:opacity-90 focus-visible:outline-ink"
+		},
+		size: {
+			md: "h-11 min-w-11 rounded-pill px-6 text-sm",
+			lg: "h-12 min-w-12 rounded-pill px-7 text-base",
+			xl: "h-14 min-w-14 rounded-pill px-8 text-lg"
+		}
+	},
+	defaultVariants: {
+		variant: "forest",
+		size: "md"
+	}
+});
+function Button({ className, variant, size, href, ...props }) {
+	const classes = cn(buttonVariants({
+		variant,
+		size
+	}), className);
+	if (href) return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+		href,
+		className: classes,
+		target: "_blank",
+		rel: "noopener noreferrer",
+		children: props.children
+	});
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+		className: classes,
+		...props
+	});
+}
 function Input({ className, ...props }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-		className: cn("h-11 w-full rounded-md border border-hairline-dark bg-snow px-4 text-base text-ink-fg", "placeholder:text-muted", "outline-none transition-[border-color,box-shadow] duration-150", "focus-visible:border-forest focus-visible:shadow-[0_0_0_3px_rgb(0_107_63_/_0.18)]", className),
+		className: cn("h-11 w-full rounded-md border border-hairline-dark bg-snow px-4 text-base text-ink-fg", "placeholder:text-muted", "outline-none", "focus-visible:border-forest focus-visible:shadow-[0_0_0_3px_rgb(0_107_63_/_0.18)]", className),
 		...props
 	});
 }
@@ -18,7 +56,7 @@ function Label({ className, ...props }) {
 }
 function Textarea({ className, ...props }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("textarea", {
-		className: cn("min-h-36 w-full rounded-lg border border-hairline-dark bg-snow px-4 py-3 text-base text-ink-fg", "placeholder:text-muted", "outline-none transition-[border-color,box-shadow] duration-150", "focus-visible:border-forest focus-visible:shadow-[0_0_0_3px_rgb(0_107_63_/_0.18)]", className),
+		className: cn("min-h-36 w-full rounded-lg border border-hairline-dark bg-snow px-4 py-3 text-base text-ink-fg", "placeholder:text-muted", "outline-none", "focus-visible:border-forest focus-visible:shadow-[0_0_0_3px_rgb(0_107_63_/_0.18)]", className),
 		...props
 	});
 }
